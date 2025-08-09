@@ -18,7 +18,7 @@ function showSuccess(input, message) {
 function showSuccess(input, message) {
   const formControl = input.parentElement;
   formControl.className = "form-control success";
-}
+}-----------------
 
 function getFieldName(input) {
   return input.id.charAt(0).toUpperCase() + input.id.slice(1);
